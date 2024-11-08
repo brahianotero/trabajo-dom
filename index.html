@@ -1,0 +1,133 @@
+<!--`html <!DOCTYPE html> <html lang="es">
+
+<head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Reservas Cafe Start</title> </head>
+<body> <div id="miElemento">Bienvenido a Cafe Start</div>
+
+<script>
+  const elemento = document.getElementById('miElemento')
+  elemento.textContent = 'Cafe Start'
+</script>
+</body> </html
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2: Selección de Elementos por Clase</title>
+  </head>
+  <body>
+    <div class="claseEspecifica">Elemento 1</div>
+    <div class="claseEspecifica">Elemento 2</div>
+    <div class="claseEspecifica">Elemento 3</div>
+
+    <script>
+      const elementos = document.getElementsByClassName('claseEspecifica')
+      for (const elemento of elementos) {
+        elemento.style.backgroundColor = 'blue'
+      }
+    </script>
+  </body>
+</html>
+El código muestra cómo seleccionar múltiples elementos HTML por su clase y actualizar su estilo usando JavaScript.
+ Cuando se carga la página,
+ todos los elementos con la clase claseEspecifica tendrán un fondo azul.>-->
+
+ <!--DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamiento de citas </title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Agendar Citas</h1>
+        <input type="text" id="nuevaTarea" placeholder="Añadir nueva Cita" />
+        <button id="btnAgregar">Añadir Cita</button>
+        <ul id="listaTareas"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>-->
+
+<!--DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamiento de Citas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Agendar Citas</h1>
+        <input type="text" id="nuevaCita" placeholder="Añadir nueva Cita" />
+        <select id="horaCita">
+            <!-- Horarios de 9 AM a 8 PM ->
+            <option value="">Seleccionar Hora</option>
+            <option value="09:00">09:00 AM</option>
+            <option value="10:00">10:00 AM</option>
+            <option value="11:00">11:00 AM</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="13:00">01:00 PM</option>
+            <option value="14:00">02:00 PM</option>
+            <option value="15:00">03:00 PM</option>
+            <option value="16:00">04:00 PM</option>
+            <option value="17:00">05:00 PM</option>
+            <option value="18:00">06:00 PM</option>
+            <option value="19:00">07:00 PM</option>
+            <option value="20:00">08:00 PM</option>
+        </select>
+        <button id="btnAgregar">Añadir Cita</button>
+        <ul id="listaCitas"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agendamiento de Citas - Barbería</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Agendar Citas - Barbería</h1>
+        <input type="text" id="nuevaCita" placeholder="Nombre del Cliente" />
+        <select id="barbero">
+            <option value="">Seleccionar Barbero</option>
+            <option value="Michel">Michel</option>
+            <option value="Stevan">Stevan</option>
+            <option value="Camilo">Camilo</option>
+            <option value="Brahian">Brahian</option>
+        </select>
+        <select id="horaCita">
+            <!-- Horarios de 8 AM a 9 PM -->
+            <option value="">Seleccionar Hora</option>
+            <option value="08:00">08:00 AM</option>
+            <option value="09:00">09:00 AM</option>
+            <option value="10:00">10:00 AM</option>
+            <option value="11:00">11:00 AM</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="13:00">01:00 PM</option>
+            <option value="14:00">02:00 PM</option>
+            <option value="15:00">03:00 PM</option>
+            <option value="16:00">04:00 PM</option>
+            <option value="17:00">05:00 PM</option>
+            <option value="18:00">06:00 PM</option>
+            <option value="19:00">07:00 PM</option>
+            <option value="20:00">08:00 PM</option>
+            <option value="21:00">09:00 PM</option>
+        </select>
+        <button id="btnAgregar">Añadir Cita</button>
+        <ul id="listaCitas"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
